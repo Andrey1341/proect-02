@@ -1,0 +1,100 @@
+@media screen and (max-width: 768px) {
+  .container {
+    width: 316px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .hero-obortka__mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .hero-obortka {
+    display: block;
+  }
+
+  .hero-title {
+    margin-top: 65px;
+  }
+
+  .hero-desc {
+    display: none;
+  }
+
+  .hero-text {
+    width: 51%;
+    margin-bottom: 36px;
+  }
+
+  .gamburger-menu {
+    display: block;
+    margin-top: 68px;
+  }
+
+  .gamburger-menu__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+
+  .gamburger-menu__item {
+    width: 33px;
+    height: 3.84px;
+    margin-bottom: 3px;
+  }
+
+  .hero-img {
+    display: none;
+  }
+
+  .hero-img__mobile {
+    display: block;
+  }
+
+  .skills-list {
+    display: block;
+  }
+
+  .skills-item {
+    margin-right: 0;
+    margin-bottom: 80px;
+  }
+  .skills-item:last-child {
+    margin-right: 0;
+    margin-bottom: 98px;
+  }
+
+  .star {
+    margin-left: auto;
+    margin-right: auto;
+    width: 46%;
+  }
+
+  .portfolio-img {
+    display: none;
+  }
+
+  .portfolio-img__mobile {
+    display: block;
+    margin-bottom: 35px;
+  }
+
+  .contacts-list {
+    width: auto;
+  }
+}
